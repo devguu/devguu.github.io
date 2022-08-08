@@ -1,0 +1,148 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html, body
+{
+    background-color: #000;
+
+    /*Config tamanho tela para comportar efeito linear correto*/
+    height: 100vh;
+    transition: 1s ease-out;
+    overflow-x: hidden;
+
+}
+
+body
+{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.perfil
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Logo-aprensentação
+{
+    width: 160px;
+    margin-bottom: 0;
+    border-radius: 100px;
+}
+
+.titulo
+{
+    font-size: 27px;
+    margin-top: 0;
+}
+
+.role
+{
+    display: flex;
+    width: 250px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 5px;
+    column-gap: 5px;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+
+.conteudo
+{
+    flex: 0 0 80%;
+    padding: 10px;
+    scroll-snap-align: start;
+    border-radius: 30px;
+}
+
+.img-d
+{
+    border-radius: 20px;
+    width: 200px;
+}
+
+.links
+{
+    list-style: none;
+    margin: 25px 0;
+}
+
+.links li
+{
+    margin: 10px 40px;
+}
+
+.links li a
+{
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    font-weight: 100;
+    font-size: 12.5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    
+    padding: 20px;
+    border-radius: 15px;
+
+    display: block;
+}
+
+.links li a span
+{
+    color: rgba(189, 189, 189, 0.734);
+    font-size: 10px;
+    display: block;
+    margin-top: 5px;
+}
+
+.msg-loc
+{
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    font-weight: 100;
+    font-size: 12.5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    
+    padding: 7px;
+    border-radius: 8px;
+
+    display: block;
+    margin: 5px 40px;
+}
+
+.maps
+{
+    text-align: center;
+}
+
+.location
+{
+    text-align: center;
+    max-width: 90vw;
+    max-height: 20vh ;
+    border-radius: 100%;
+    -webkit-border-radius: 15px;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
+
+footer
+{
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.108);
+}
+
+
